@@ -1,10 +1,11 @@
 # python-assignment
 
 ## 1: Write a Python program to read a file line by line and store it into a list.
+
 ## 2: Write a Python program to calculate the number of days between two dates.
+
 Sample dates : (20200702), (20200711)
-## 3: Write a Python program to convert the Python dictionary object (sort by key) to
-JSON data. Print the object members with indent level 4.
+## 3: Write a Python program to convert the Python dictionary object (sort by key) to JSON data. Print the object members with indent level 4.
 ## 4: Write a Python program to sort a list of dictionaries using Lambda.
 Original list of dictionaries :
 [{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Mi Max', 'model': '2',
@@ -12,16 +13,16 @@ Original list of dictionaries :
 Sorting the List of dictionaries :
 [{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Samsung', 'model': 7,
 'color': 'Blue'}, {'make': 'Mi Max', 'model': '2', 'color': 'Gold'}]
-## 5: Write a Python program that takes a text file as input and returns the number of
-words of a given text file.
-Note: Some words can be separated by a comma with no space.
-## 6: Write a Python program to convert an array to an array of machine values and
-return the bytes representation.
+
+## 5: Write a Python program that takes a text file as input and returns the number of words of a given text file. Note: Some words can be separated by a comma with no space.
+
+## 6: Write a Python program to convert an array to an array of machine values and return the bytes representation.
 Expected Output:Original array:
 A1: array('i', [1, 2, 3, 4, 5, 6])
 Array of bytes: b'010000000200000003000000040000000500000006000000'
-## 7: Write a script which can read the files line by line with .log ext and print it into a
-file , while printing the data from the suffix with present date and time of the system.
+
+## 7: Write a script which can read the files line by line with .log ext and print it into afile , while printing the data from the suffix with present date and time of the system.
+
 (example of file path are /home/Desktop/demo/test.log,
 /home/Desktop/demo/test-1.log, /home/Desktop/demo/test2.log, .....)
 (sample data inside the .log files
@@ -46,7 +47,6 @@ hide
 03-17 16:13:38.869 2227 2227 D TextView: visible is system.charge.show
 03-17 16:13:38.887 2227 2227 D TextView: visible is system.ownerinfo.show
 )
-## 8: Program to Generate random logs and write in a file , once the file size reaches 2Mb
-open new file and continue writing
-## 9: Script to ping and check whether any given IPs are active, also whether given set of
-software are installed in the existing system ( like java, kubectl, aws etc)
+## 8: Program to Generate random logs and write in a file , once the file size reaches 2Mb open new file and continue writing
+
+## 9: Script to ping and check whether any given IPs are active, also whether given set of software are installed in the existing system ( like java, kubectl, aws etc)
