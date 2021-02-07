@@ -4,12 +4,13 @@ words of a given text file.
 Note: Some words can be separated by a comma with no space.
 '''
 
-def word_count(fpath):
-    with open(fpath) as file:
-        data = file.read()
-        data.replace(",", " ")
-        data.replace(", ", " ")
-        return len(data.split(" "))
+count = 0
+file = open("file.txt", "r")  
 
-# Driver code
-print(word_count("file.txt"))
+#Gets each line till end of file is reached  
+for line in file: 
+    words = line.split(" ")
+    count = count + len(words)
+
+print("Number of words present in given file: " + str(count))
+file.close()
