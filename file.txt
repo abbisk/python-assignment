@@ -1,0 +1,6 @@
+﻿Hello everyone
+It is solution of first problem in the assignment
+Hey its new line
+Hey again a new line
+Code is working fine
+Python
