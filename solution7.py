@@ -1,6 +1,6 @@
 '''
-Program to Generate random logs and write in a file , once the file size reaches 2Mb
-open new file and continue writing
+Write a script which can read the files line by line with .log ext and print it into a
+file , while printing the data from the suffix with present date and time of the system.
 
 '''
 
